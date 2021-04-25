@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+.Titulo2 {
+    margin-top: 30px;
+    background-color: #ccdde8;
+    line-height: 7.0;
+    font-size: 20px;
+    text-align: center;
+}
+
+th,
+td {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #178fd6;
+    color: black;
+}
