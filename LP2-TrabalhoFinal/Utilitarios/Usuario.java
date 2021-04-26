@@ -33,7 +33,7 @@ public class Usuario implements Comparable< Usuario >, java.io.Serializable{
   }
 
   public void somaPont(Double pont){
-    this.pontuacao = pont;
+    this.pontuacao += pont;
   }
 
   public Double getPontuacao(){
